@@ -4,7 +4,7 @@ from collections import Counter
 import os
 
 
-csv_path = "/Users/kimjungyeon/Desktop/대학원/감정 분류를 위한 대화 음성 데이터셋/5차년도_2차.csv"
+csv_path = r"C:\Users\jungyeon\Desktop\data\감정 분류를 위한 대화 음성 데이터셋\5차년도_2차.csv"
 df = pd.read_csv(csv_path, encoding="cp949")
 
 print("행 수", len(df))
