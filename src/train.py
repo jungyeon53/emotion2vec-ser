@@ -6,9 +6,10 @@ import config
 from sklearn.metrics import accuracy_score, recall_score, f1_score, confusion_matrix
 from sklearn.utils.class_weight import compute_class_weight
 
+np.random.seed(config.SEED)
+torch.manual_seed(config.SEED)
 
-
-# 임베딩 불러오기 
+# 임베딩 불러오기
 embeddings = np.load(f"{config.EMBED_DIR}/embeddings.npy")
 labels = np.load(f"{config.EMBED_DIR}/labels.npy")
 

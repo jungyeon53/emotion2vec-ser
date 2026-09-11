@@ -43,7 +43,7 @@ MODEL_DIR = "outputs/models"              # 학습한 분류기 저장 위치
 # ─────────────────────────────
 BATCH_SIZE = 32
 LEARNING_RATE = 0.005   # 0.001 → 0.005
-EPOCHS = 200            # 50 → 200
+EPOCHS = 200
 HIDDEN_DIM = 256                          # 분류기 은닉층 크기 (논문 따라)
 
 # train/validation/test 분할 비율
