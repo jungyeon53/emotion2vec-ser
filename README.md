@@ -1,5 +1,3 @@
-[📄 발표 자료 (PPTX)](./docs/emotion2vec.pptx)
-
 # emotion2vec-SER
 
 emotion2vec 사전학습 모델로 음성 임베딩을 추출하고, MLP 분류기로 감정을 인식하는 Speech Emotion Recognition(SER) 파이프라인입니다.
@@ -21,6 +19,15 @@ emotion2vec은 자기지도학습(Self-Supervised Learning) 방식으로 사전�
 | 1 | happiness |
 | 2 | neutral |
 | 3 | sadness |
+
+---
+
+## 발표 자료
+
+프로젝트 전체 내용을 정리한 발표 자료입니다.
+
+- [📄 슬라이드 미리보기 (PDF)](./docs/emotion2vec.pdf)
+- [📥 발표 원본 (PPTX)](./docs/emotion2vec.pptx)
 
 ---
 
